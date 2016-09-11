@@ -1,11 +1,13 @@
 
 function Cell(char, colo) {
-  this.char = '' // TODO set default
-  this.colo = '' // TODO set default
+  this.char = char;
+  this.colo = colo;
 }
 
 Cell.prototype.draw = function () {
-  // write colo to std out
+  // TODO write colo to std out
+  process.stdout.write(this.char);
+  process.stdout.write(this.char); // TODO fix this kludge
 };
 
 module.exports = Cell;
