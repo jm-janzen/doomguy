@@ -1,4 +1,4 @@
-var Cell = require("./classes/cell.js");
+var Cell = require("./cell.js");
 
 function Row() {
   this.cells = [];

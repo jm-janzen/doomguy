@@ -1,4 +1,3 @@
-var fs = require("fs");
 var Row = require("./classes/row.js");
 
 // TODO mashup with another config to `coloName -> coloValue'
