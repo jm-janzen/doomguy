@@ -18,6 +18,6 @@ rows.forEach(function (pixels) {
   for (p = 0; p < pixels * 2; p++) {
     process.stdout.write('\u2588');
   }
-    process.stdout.write('\n');
+  process.stdout.write('\n');
 })
 
