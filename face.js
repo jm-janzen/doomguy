@@ -20,3 +20,4 @@ rows.forEach(function (pixels) {
   }
     process.stdout.write('\n');
 })
+
