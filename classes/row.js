@@ -1,4 +1,4 @@
-var Cell = require("./cell.js");
+var Cell = require("./classes/cell.js");
 
 function Row() {
   this.cells = [];
@@ -19,10 +19,6 @@ Row.prototype.draw = function () {
 
 Row.prototype.addCell = function (char, colo) {
   this.cells.push(new Cell(char, colo));
-};
-
-Row.prototype.length = function () {
-  return this.cells.length;
 };
 
 module.exports = Row;
