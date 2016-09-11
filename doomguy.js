@@ -4,7 +4,6 @@ var Row = require("./classes/row.js");
 var rowProps = require("./res/cells.json").rowProps;
 
 var drawing = [];
-var rows = [];
 rowProps.forEach(function (rows) {
   var row = new Row();
 
