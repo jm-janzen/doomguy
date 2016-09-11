@@ -1,7 +1,7 @@
 var Row = require("./classes/row.js");
 
 // TODO mashup with another config to `coloName -> coloValue'
-var rows = require("./res/cells.json").rows;
+var rows = require("./res/rows.json").rows;
 
 var drawing = [];
 rows.forEach(function (rowObj) {
