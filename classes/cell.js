@@ -1,3 +1,4 @@
+var clc = require("cli-color");
 
 function Cell(char, colo) {
   this.char = char;
@@ -5,9 +6,11 @@ function Cell(char, colo) {
 }
 
 Cell.prototype.draw = function () {
-  // TODO write colo to std out
-  process.stdout.write(this.char);
-  process.stdout.write(this.char); // TODO fix this kludge
+  var colo = clc.xterm(Number(this.colo)).bgXterm(this.colo);
+
+  process.stdout.write(colo(this.char));
+  process.stdout.write(colo(this.char)); // TODO fix this kludge
+
 };
 
 module.exports = Cell;
