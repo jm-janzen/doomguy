@@ -1,0 +1,23 @@
+{
+  "name": "doomguy",
+  "version": "1.0.0",
+  "description": "Doomguy face writer written in NodeJS",
+  "main": "doomguy.js",
+  "dependencies": {
+    "cli-color": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jm-janzen/doomguy.git"
+  },
+  "author": "jm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jm-janzen/doomguy/issues"
+  },
+  "homepage": "https://github.com/jm-janzen/doomguy#readme"
+}
